@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  width: 200px;
+  background: #5640ff;
+}
+.nave {
+  background: #5640ff;
+  width: 250px;
+}
+
+img {
+  display: flex;
+  padding: 15px;
+  max-width: 50px;
+}
+
+@media (max-width: 991px) {
+  .nave {
+      position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 20px;
+    flex-direction: row;
+   bottom: 0.1px;
+  }
+}
